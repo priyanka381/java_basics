@@ -1,7 +1,8 @@
 package ecommerce;
 
 public class Security {
-	public void scan(Customer customerpriya) {
+	public boolean scan(Customer customerpriya) {
 		System.out.println("security s scanning");
+		return false;
 	}
 	}

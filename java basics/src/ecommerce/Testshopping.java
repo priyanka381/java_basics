@@ -6,7 +6,16 @@ public class Testshopping {
 		Customer customerpriya = new Customer();
 		customerpriya.walking();
 		Security maxsecurity = new Security();
-		maxsecurity.scan(customerpriya);
+		boolean isCustomer = maxsecurity.scan(customerpriya);
+		if(isCustomer) {
+			customerpriya.shop();
+		}
+		else {
+			customerpriya.goesout();
+			
+		}
+		
+	
 		
 	}
 
