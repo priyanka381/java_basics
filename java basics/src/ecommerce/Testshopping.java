@@ -10,13 +10,12 @@ public class Testshopping {
 		if(isCustomer) {
 			customerpriya.shop();
 		}
+				
 		else {
 			customerpriya.goesout();
 			
 		}
 		customerpriya.checkout();
-		
-	
 		
 	}
 
