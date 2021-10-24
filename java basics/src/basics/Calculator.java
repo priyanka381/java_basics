@@ -2,10 +2,8 @@ package basics;
 
 public class Calculator {
 	int add(int a,int b) {
-		System.out.println("Calculator--add");
-        int c = a+b;
-        System.out.println("Calculator--add--"+c);
-        return c;
+	
+        return a+b;
 	}
 	
 	int sub(int a,int b) {
