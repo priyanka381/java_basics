@@ -16,4 +16,10 @@ public class Customer {
 		
 	}
 
+	public void checkout() {
+		Cashier anithacashier = new Cashier();
+		anithacashier.estimate();
+		
+	}
+
 }

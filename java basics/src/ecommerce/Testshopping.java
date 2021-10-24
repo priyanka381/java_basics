@@ -14,6 +14,7 @@ public class Testshopping {
 			customerpriya.goesout();
 			
 		}
+		customerpriya.checkout();
 		
 	
 		
