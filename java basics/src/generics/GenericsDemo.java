@@ -3,7 +3,7 @@ package generics;
 public class GenericsDemo {
 	public static void main(String[] args) {
 		/*
-		 * Account<String> account = new Account<String>();
+          *Account<String> account = new Account<String>();
 		 * account.setObj("sbi account"); System.out.println(account.getObj());
 		 */
 		
